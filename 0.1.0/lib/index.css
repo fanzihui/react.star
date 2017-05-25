@@ -1,0 +1,24 @@
+/* Although the file suffix is CSS, but it will be less compilation */
+/* The CSS specification: https://github.com/fast-flow/trees */
+.star-warp{
+    margin: 0 auto;
+    width: 600px;
+    height: 100px;
+}
+.star-item{
+    position: relative;
+    float: right;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.star-item:hover{
+    color: red;
+}
+.star-item:hover ~ .star-item{
+    color: red;
+}
+html .star-item--on{
+    color: red;
+}
