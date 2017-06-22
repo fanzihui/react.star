@@ -5,7 +5,7 @@ var App = React.createClass({
         var self = this
         return (
             <div>
-                <Some light={2} star={10} disable={false}/>
+                <Some light={2} star={10} disable={false} icon={'♥'} />
             </div>
         )
     }
